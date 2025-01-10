@@ -1,69 +1,159 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* font-family: "Fira Sans", serif; */
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Fira Sans", serif;
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #F5F5F5;
+  font-family: "Fira Sans", serif;
 }
 /* Shared styles */
-.side-margin{
-    margin: 0 120px;
+.side-margin {
+  margin: 0 120px;
 }
-
-
 
 /* navbar style */
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    height: 50px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 50px;
 }
-.logo h1{
-    color: #0E0E0E;
-    font-size: 30px;
+.logo h1 {
+  color: #0e0e0e;
+  font-size: 30px;
 }
-.sign-in-btn button{
-    padding: 10PX 20px;
-    font-weight: 600;
-    color: #006A50;
-    border: 1px solid #006A50;
-    border-radius: 5px;
-    background: none;
+.sign-in-btn button {
+  padding: 10px 20px;
+  font-weight: 600;
+  color: #006a50;
+  border: 1px solid #006a50;
+  border-radius: 5px;
+  background: none;
+}
+.sign-in-btn button:hover {
+  background-color: #006a50;
+  color: #ffffff;
+  transform: scale(1.1);
 }
 /* Hero section styles */
-.hero-container{
-    margin-top: 20px;
-    width: 100%;
-    height: 400px;
-    background-color: #C6E4D6;
-    border-radius: 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.hero-container {
+  margin-top: 20px;
+  width: 100%;
+  height: 400px;
+  background-color: #c6e4d6;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.hero-container .hero-text h1{
-    font-size: 40px;
-    color: #0E0E0E;
+.hero-container .hero-text h1 {
+  font-size: 40px;
+  color: #0e0e0e;
 }
-.hero-container .hero-text p{
-    font-size: 15px;
-    font-weight: 500;
+.hero-container .hero-text p {
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+  line-height: 40px;
+}
+.hero-container .hero-text button {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #006a50;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.hero-container .hero-text button:hover {
+  background-color: #ffffff;
+  border: #006a50;
+  color: #006a50;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.hero-container .hero-img img {
+  width: 350px;
+}
+/* The Vision of Future section styles */
+.vision-title{
+    margin-top: 60px;
+}
+.vision-title h1{
+    font-size: 33px;
+    color: #0e0e0e;
+    margin-bottom: 20px;
+}
+.vision-title p{
+    font-size: 13px;
     color: gray;
-    line-height: 40px;
+    line-height: 20px;
+    margin-bottom: 20px;
 }
-.hero-container .hero-text button{
-    margin-top: 20px;
-    font-size: 12px;
+.vision-card{
+    display: flex;
+    gap: 30px;
+}
+.vision-card .vision-card-item1{
+    background-color: #D5E1F5;
+    padding: 30px;
+    border-radius: 10px;
+}
+.card-img{
+    width: 50px;
+}
+.card-title{
+    color: rgba(14, 14, 14, 0.8);
+    margin: 15px 0 10px 0;
+}
+.card-des{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.vision-card-item1 button{
+    margin-top: 10px;
+    font-size: 13px;
     font-weight: 600;
-    color: #FFFFFF;
-    background-color: #006A50;
+    padding: 8px 15px;
+    background-color: #5490F5;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
 }
-.hero-container .hero-img img{
-    width: 350px;
+.vision-card .vision-card-item2{
+    background-color: #C6E4D6;
+    padding: 30px;
+    border-radius: 10px;
+}
+.vision-card-item2 button{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 15px;
+    background-color: #09A15C;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+.vision-card .vision-card-item3{
+    background-color: #F7EBCF;
+    padding: 30px;
+    border-radius: 10px;
+}
+.vision-card-item3 button{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 15px;
+    background-color: #FFC239;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
 }
