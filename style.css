@@ -333,3 +333,23 @@ body{
 .newsletter button:hover{
   background-color: tomato;
 }
+/* qoutes section styles */
+#qoutes-section{
+  margin: 50px 0;
+  padding: 30px 20px;
+  background-color: #ffffff;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 10px;
+  background-image: url(./assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 20px 15px;
+}
+.main-qoutes p{
+  font-size: 13px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.main-qoutes h5{
+  margin-top: 10px;
+  color: rgba(14, 14, 14, 0.8);
+}
