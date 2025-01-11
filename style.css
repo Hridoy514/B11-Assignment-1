@@ -79,6 +79,39 @@ body{
 .hero-container .hero-img img {
   width: 350px;
 }
+/* pillars section styles */
+#pillars-section h1{
+  color: #0E0E0E;
+  font-size: 33px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.pillars-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+.pillars-card{
+  background-color: #ffffff;
+  padding: 20px;
+  height: 150px;
+  max-width: 200px;
+  border-radius: 10px;
+  border: 1px solid rgba(14, 14, 14, 0.08);
+}
+.pillars-card img{
+  width: 50px;
+}
+.pillars-card h5{
+  color: rgba(14, 14, 14, 0.8);
+  margin: 10px 0;
+}
+.pillars-card p{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 13px;
+}
+
 /* The Vision of Future section styles */
 .vision-title{
     margin-top: 60px;
@@ -165,6 +198,26 @@ body{
   text-decoration: none;
   color: #ffffff;
   font-size: 13px;
+}
+/* qoutes section styles */
+#qoutes-section{
+  margin: 50px 0;
+  padding: 30px 20px;
+  background-color: #ffffff;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 10px;
+  background-image: url(./assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 20px 15px;
+}
+.main-qoutes p{
+  font-size: 13px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.main-qoutes h5{
+  margin-top: 10px;
+  color: rgba(14, 14, 14, 0.8);
 }
 /* recent news section style */
 .news-container{
@@ -253,6 +306,7 @@ body{
   font-size: 15px;
   font-weight: bold;
   margin-bottom: 50px;
+  outline: none;
   border: none;
   border-bottom: 1px solid rgb(221, 220, 220);
 }
@@ -321,6 +375,7 @@ body{
   padding: 12px 15px;
   border: none;
   border-radius: 5px 0 0 5px;
+  outline: none;
 }
 .newsletter button{
   font-size: 13px;
@@ -332,24 +387,4 @@ body{
 }
 .newsletter button:hover{
   background-color: tomato;
-}
-/* qoutes section styles */
-#qoutes-section{
-  margin: 50px 0;
-  padding: 30px 20px;
-  background-color: #ffffff;
-  border: 1px solid rgba(14, 14, 14, 0.15);
-  border-radius: 10px;
-  background-image: url(./assets/quote-bg.png);
-  background-repeat: no-repeat;
-  background-size: 40px;
-  background-position: 20px 15px;
-}
-.main-qoutes p{
-  font-size: 13px;
-  color: rgba(14, 14, 14, 0.8);
-}
-.main-qoutes h5{
-  margin-top: 10px;
-  color: rgba(14, 14, 14, 0.8);
 }
